@@ -20,3 +20,19 @@
 .gameBoard{/* setting variable to display none until function show is call*/
     display: none;
 }
+
+table {
+    width: 250px;
+}
+
+table, tr, td{
+    border: 5px solid black;  
+
+
+}
+
+td{
+    width: 100%;
+    padding:20px;
+    border-spacing:20px;
+}
