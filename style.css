@@ -16,3 +16,7 @@
 .Aligner-item--bottom {
   align-self: flex-end;
 }
+
+.gameBoard{/* setting variable to display none until function show is call*/
+    display: none;
+}

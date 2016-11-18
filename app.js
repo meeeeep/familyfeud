@@ -3,3 +3,5 @@ $('p').hover(function(){
 	function () {
 		$('.rules').hide()
 	});
+
+//$('.row').hide(function(){$('h2').hide();});
