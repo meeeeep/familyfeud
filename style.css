@@ -22,17 +22,868 @@
 }
 
 table {
-    width: 250px;
+    width: 600px;
+    height: 100%;
 }
 
 table, tr, td{
-    border: 5px solid black;  
+    border: 5px solid black; 
+    height: 100px; /*sets the height of each cell in the table*/
+}
 
+tr{
+    width: 100%;
+    padding:100px;
+    border-spacing:100px;
+}
+#question1Ans{
+    visibility: hidden;
+    display:none;
+}
+
+#q1A1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q1APoints1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
 
 }
 
-td{
-    width: 100%;
-    padding:20px;
-    border-spacing:20px;
+
+#q1A2{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q1APoints2{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q1A3{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q1APoints3{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q1A4{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q1APoints4{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q1A5{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q1APoints5{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q1A6{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q1APoints6{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q1A7{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q1APoints7{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q1A8{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q1APoints8{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+#question2Ans{
+    visibility: hidden;
+    display: none;
+}
+
+
+#q2A1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q2APoints1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q2A2{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q2APoints2{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q2A3{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q2APoints3{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q2A4{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q2APoints4{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q2A5{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q2APoints5{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q2A6{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q2APoints6{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q2A7{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q2APoints7{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q2A8{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q2APoints8{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+#question3Ans{
+    visibility: hidden;
+    display: none;
+}
+
+
+#q3A1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q3APoints1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q3A2{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q3APoints2{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q3A3{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q3APoints3{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q3A4{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q3APoints4{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q3A5{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q3APoints5{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q3A6{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q3APoints6{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q3A7{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q3APoints7{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q3A8{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q3APoints8{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+#questionAns4{
+    visibility: hidden;
+    display:none;
+}
+
+#q4A1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q4APoints1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q4A2{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q4APoints2{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q4A3{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q4APoints3{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q4A4{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q4APoints4{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q4A5{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q4APoints5{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q4A6{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q4APoints6{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q4A7{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q4APoints7{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q4A8{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q4APoints8{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+#questionAns5{
+    visibility: hidden;
+    display: none;
+}
+
+#q5A1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q5APoints1{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q5A2{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q5APoints2{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q5A3{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q5APoints3{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q5A4{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q5APoints4{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q5A5{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q5APoints5{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q5A6{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q5APoints6{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+
+#q5A7{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q5APoints7{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
+}
+
+
+#q5A8{
+visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;}
+
+#q5APoints8{visibility: visible; 
+display: block; 
+color: black; 
+background-color: black; 
+border-color: yellow;
+border-style: double;
+padding-left: 5px; height: 100px;
+
 }
