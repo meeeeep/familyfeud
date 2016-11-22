@@ -195,7 +195,8 @@ var questionCalling = function() {
 
 
 }
-
+           var fam1Score=0;
+           var fam2Score=0;
 
 var submitPlayerOneAnswer=function(){
 	var answer = $('#playerOneAnswer').val();
@@ -206,38 +207,26 @@ var submitPlayerOneAnswer=function(){
 			var classPoints = '.answer' + (i+1).toString() + 'Points';
 			$(classPoints).css('visibility', 'visible');
 			
+      var currentTotalPoints = questions[currentQuestion].answers[i].points;
+      fam1Score += currentTotalPoints;
+
+      $('#player_one_total').html(fam1Score);
 
 
-           var currentTotal= 0;
-            var addTotal= $('.grandTotal').val();
-
-			var total= function(){
-				currentTotal + questions[currentQuestion].answers[i].points;
+   
 
 	}
 	
-	else if{ answer !== questions[currentQuestion].answers[i].answer
 	
-	strike()
 }
 
 
 
 
 }
-}
-} 
 
 
-var strike =function(){
-   
-   var str="";
 
-      for(var i=1; i<3; i++){
-      alert("Please Try again!")
-      str+="X";
-      }
-   };
 
 
 
