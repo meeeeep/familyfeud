@@ -221,9 +221,24 @@ var submitPlayerOneAnswer=function(){
 }
 
 
+}  //else if {
 
+//   var submitPlayerTwoAnswer=function(){
+//   var answer = $('#player2Answer').val();
+//   for(var i=0; i < questions[currentQuestion].answers.length; i++){
+//     if(answer === questions[currentQuestion].answers[i].answer){
+//       var className = '.answer' + (i+1).toString();
+//       $(className).css('visibility', 'visible');
+//       var classPoints = '.answer' + (i+1).toString() + 'Points';
+//       $(classPoints).css('visibility', 'visible');
+      
+//       var currentTotalPoints = questions[currentQuestion].answers[i].points;
+//       fam1Score += currentTotalPoints;
 
-}
+//       $('#player_two_total').html(fam1Score);
+// }
+// }
+// }
 
 
 

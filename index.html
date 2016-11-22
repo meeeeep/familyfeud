@@ -81,7 +81,7 @@ Type Your Answer Here:
 
 <div class='grandTotal'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>TOTAL: &nbsp;&nbsp;&nbsp;&nbsp;
 
-<h3 class=playerTwoTotal><h3>
+<h3 id=player_two_total><h3>
 
 <input type='text' class='calculatetotal' name='player2Score' id='player2Score' >
 </div>
@@ -89,14 +89,15 @@ Type Your Answer Here:
 <ul class='family'>
 <li>
 
-Type Your Answer Here:
 <input type='text' name='player2Answer'	id='player2Answer'>
 
 </li>
 </ul>
 
 <li class='familyAnswers'> 
-<input type='submit' class='button' value='submit' name='player2Submit' id='player2Submit' onclick='SubmitAnswer; return false;'>
+<button class='button' value='submit' id='player2Submit' onclick='submitPlayerTwoAnswer()'>Submit</button>
+
+
 </li>
 </div>
 </div>
