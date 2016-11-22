@@ -36,7 +36,24 @@ tr{
     padding:100px;
     border-spacing:100px;
 }
-#question1Ans{
+
+td div{
+    visibility: hidden;
+}
+#myButton{
+    background-color:blue;
+    color:white;
+
+}
+
+/*.listQuestion{
+    visibility: hidden;
+
+    
+}*/
+
+
+/*#question1Ans{
     visibility: hidden;
     display:none;
 }
@@ -884,6 +901,5 @@ color: black;
 background-color: black; 
 border-color: yellow;
 border-style: double;
-padding-left: 5px; height: 100px;
+padding-left: 5px; height: 100px;*/
 
-}

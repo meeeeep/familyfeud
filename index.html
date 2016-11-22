@@ -18,12 +18,12 @@
 <p>Rules of the Game</p>
 
 <div class= "rules"><ul>
-<li> Be the first to reach up to 300 points in 4 rounds.</li>
+<li> Be the first to reach up to 300.</li>
 <li> Get all of the answers correct on the board and you will recieve all of the points generated from that round. </li>
-<li>Like the game show, you have 3 chances to submit incorrect answers.</li>
- <li>If you submit 3 incorrect answers, you will loose all the points in that round to the computer.</li>
- <li>Also, each round is timed. You will have 120 seconds to type and submit the correct answers.</li>
- <li>If you run out of time, you will only be given the points you earned from each submitted correct answer.</li>
+<li>Like the game show, you have 3 chances to submit incorrect answers.
+</li>
+ <li>If you submit 3 incorrect answers, you loose your turn and the points to the other family</li>
+ 
  <li>Have fun, and enjoy!</li>
 </ul>
 
@@ -32,10 +32,9 @@
 
 <div class="container">
 <div class="row">
-<div class="col-md-6">
-<h2> WELCOME TO THE </h2>
+<div class="col-md-12">
+<img src='images/family.jpg' alt='family fued logo'>
 
-<h1> FAMILY FEUD</h1>
 
 
 <button id='myButton'>LET'S PLAY</button>
@@ -47,10 +46,14 @@
 </div>
 
 
+
+
 <div class="gameBoard">
 
-<div id= "player1"> </div>
 
+<div class="row">
+<div class="col-md-6">
+<div id= "player1"> </div>
 <div class='grandTotal'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>TOTAL: &nbsp;&nbsp;&nbsp;&nbsp;
 <input type='text' class='calculatetotal' name='player1Score' id='player1Score' value='0'>
 </div>
@@ -59,15 +62,19 @@
 <li>
 
 Type Your Answer Here:
-<input type='text' name='player1Answer'	id='player1Answer'>
+<input type='text' id='playerOneAnswer'>
 
 </li>
 </ul>
 
 <li class='familyAnswers'> 
-<input type='submit' class='button' value='submit' name='player1Submit' id='player1Submit' onclick='SubmitAnswer; return false;'>
+<button class='button' value='submit' id='player1Submit' onclick="submitPlayerOneAnswer()">Submit</button>
 </li>
+</div>
 
+
+
+<div class="col-md-6">
 
 <div id="player2"></div>
 
@@ -87,50 +94,90 @@ Type Your Answer Here:
 <li class='familyAnswers'> 
 <input type='submit' class='button' value='submit' name='player2Submit' id='player2Submit' onclick='SubmitAnswer; return false;'>
 </li>
-
-
-
-
-<div id="listQuestion">
-
-<!--<div class="question1">
-<p>
- If a witch was not paying attention to where she was flying, name something she might crash into?
- <p>
-
- </div>
-
-<div class="question2">
-<p>
-Name a sport where many players end up in jail? 
-
-</p>
+</div>
 </div>
 
-<div class="question3">
-<p>
-Name an animal that we eat that would never eat us?
-</p>
-</div>
 
-<div class="question4">
-<p>
-Name a fruit that you never buy just one of? 
-</p>
-</div>
 
-<div class="question5">
-<p>
-Name an illness that kids give to each other?
-</p>
-</div><-->
+<div class="listQuestion">
+
+<div id="displayAllQuestions">
+	
+</div>
 	
 </div>
 
 
+<table>
+	<tr>
+		<td>
+			<div class="answer1"></div>
+		</td>
+		<td>
+			<div class="answer1Points"></div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="answer2"></div>
+		</td>
+		<td>
+			<div class="answer2Points"></div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="answer3"></div>
+		</td>
+		<td>
+			<div class="answer3Points"></div>
+		</td>
+<tr>
+<td> 
+<div class="answer4"></div>
+</td>
+<td>
+<div class="answer4Points"></div>
+</td>
+	</tr>
+
+	<tr>
+<td> 
+<div class="answer5"></div>
+</td>
+<td>
+<div class="answer5Points"></div>
+</td>
+	</tr>
+	<tr>
+<td> 
+<div class="answer6"></div>
+</td>
+<td>
+<div class="answer6Points"></div>
+</td>
+	</tr>
+	<tr>
+<td> 
+<div class="answer7"></div>
+</td>
+<td>
+<div class="answer7Points"></div>
+</td>
+	</tr>
+	<tr>
+<td> 
+<div class="answer8"></div>
+</td>
+<td>
+<div class="answer8Points"></div>
+</td>
+	</tr>
+
+</table>
 
 
-<div class="family" id="question1Ans" name="Question1">
+<!-- <div class="family" id="question1Ans" name="Question1">
 <table>
 
 <tr>
@@ -316,9 +363,10 @@ Name an illness that kids give to each other?
 </tr>
 </table>
 
+<button id='questionButton'>Next Question</button>
 
 
-</div>
+</div> -->
 
 
 
